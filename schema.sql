@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS blog_posts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    country VARCHAR(255) NOT NULL,
+    capital_city VARCHAR(255) NOT NULL,
+    size INT NOT NULL,
+    off_language VARCHAR(255) NOT NULL,
+    PIB INT NOT NULL
+);
