@@ -11,7 +11,7 @@ import swagger from './swagger.js'
 const app = express()
 app.use(express.json())
 swagger(app)
-const port = 3000
+const port = 22075
 
 /**
  * @swagger
